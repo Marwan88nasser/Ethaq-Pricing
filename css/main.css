@@ -481,4 +481,106 @@ input:focus::placeholder {
   .landing-section .landing-content .img-side img:last-child {
     max-width: 100%;
   }
+}
+
+.footer {
+  background-color: rgba(17, 216, 97, 0.0509803922);
+  border-radius: 8px;
+  margin: 0 24px 24px;
+  color: #000;
+  font-size: 14px;
+  padding: 40px 0 25px 0;
+}
+.footer .container .box-footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer .container .box-footer .logo {
+  width: 300px;
+  max-width: 100%;
+}
+.footer .container .box-footer .list-footer .title {
+  font-weight: 700;
+  font-size: 15px;
+  color: #000;
+  margin-bottom: 10px;
+}
+.footer .container .box-footer .list-footer .links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .container .box-footer .list-footer .links a {
+  font-weight: 400;
+  display: block;
+  font-size: 14px;
+  white-space: nowrap;
+  display: block;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #000;
+}
+.footer .container .box-footer .list-footer .links a .img {
+  width: 50px;
+  height: auto;
+}
+.footer .container .box-footer .list-footer .links a .icon {
+  color: #2E5789;
+  font-size: 19px;
+}
+@media (max-width: 991.98px) {
+  .footer .container .box-footer {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  .footer .container .box-footer .list-footer {
+    width: 50%;
+  }
+  .footer .container .box-footer .box-info {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+.footer .container .hr {
+  background-color: #000000;
+  opacity: 0.2;
+  height: 1px;
+  width: 100%;
+  margin: 25px 0;
+}
+.footer .container .copy-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 991.98px) {
+  .footer .container .copy-right {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+.footer .container .copy-right .list-social {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.footer .container .copy-right .list-social .item {
+  border: 1px solid #C9CACA;
+  width: 39px;
+  display: flex;
+  border-radius: 50%;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  height: 39px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.footer .container .copy-right .list-social .item .icon, .footer .container .copy-right .list-social .item svg, .footer .container .copy-right .list-social .item i {
+  width: 16px;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */
