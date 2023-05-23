@@ -22,8 +22,9 @@
   .nav-item {
     &.dropdown {
       &.dropdown-toggle {
+        font-size: 100px;
         &::after {
-          border: 0;
+          display: none !important;
         }
       }
     }
@@ -38,6 +39,15 @@
           font-size: 16px;
           padding: 8px 12px;
           font-weight: 600;
+          &.dropdown-toggle {
+            i,svg {
+              margin-right: 2px;
+              font-size: 12px;
+            }
+            &::after {
+              display: none !important;
+            }
+          }
           &.active {
             color: $main-color;
             // &::after {
@@ -109,6 +119,11 @@
     gap: 15px;
     .nav-item {
       .nav-link {
+        &.dropdown-toggle {
+          &::after {
+            display: none !important;
+          }
+        }
         .user-img {
           @include circle(48px);
         }

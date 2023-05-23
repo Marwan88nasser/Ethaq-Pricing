@@ -31,6 +31,13 @@
     align-items: flex-start;
     justify-content: center;
 }
+// centring element by flex
+@mixin center-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 // set font style
 @mixin fw-fs-lh($fw, $fspx, $lhpx) {
     font-weight: $fw;
