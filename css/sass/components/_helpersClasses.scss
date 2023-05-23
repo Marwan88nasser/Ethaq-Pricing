@@ -32,7 +32,6 @@
 .h-fit {
   height: fit-content;
 }
-
 .w-fit {
   width: fit-content;
 }
@@ -59,31 +58,4 @@
 // Background Color
 .section-bg-alt {
   background-color: $bg-section-alt;
-}
-
-.section-light {
-  position: relative;
-  &::before,
-  &::after {
-    content: "";
-    width: 300px;
-    height: 250px;
-    border-radius: 100px;
-    position: absolute;
-    background: radial-gradient(
-      51.79% 51.79% at 50% 50%,
-      #8ebbff 0.01%,
-      rgba(255, 255, 255, 0) 100%
-    );
-    opacity: 0.4;
-    z-index: -1;
-    top: 50%;
-  }
-
-  &::before {
-    left: 130px;
-  }
-  &::after {
-    right: 130px;
-  }
 }

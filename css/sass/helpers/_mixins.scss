@@ -62,9 +62,9 @@
   left: 0%;
 }
 // reset circle
-@mixin circle($width, $height) {
-    width: $width;
-    height: $height;
+@mixin circle($damnation) {
+    width: $damnation;
+    height: $damnation;
     border-radius: 50%;
 }
 
